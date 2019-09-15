@@ -68,12 +68,12 @@ public class ServerMain {
 		ServerMain server = new ServerMain();
     	server.start();
                 
-        System.out.println("Press enter to stop SMPP servers");
-        System.in.read();
+        //System.out.println("Press enter to stop SMPP servers");
+        //System.in.read();
         
-        server.stop();
-        server.printMetrics();      
-        server.destroy();
+        //server.stop();
+        //server.printMetrics();
+        //server.destroy();
 	}
     
     public ServerMain() {
